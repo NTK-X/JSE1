@@ -81,8 +81,7 @@ pizzas.forEach ((pizza)=>{console.log(`La pizza ${pizza.nombre} tiene un costo d
 
 
 
-// d) Todos los ingredientes de cada pizza (En cada iteración imprimir los ingredientes de la pizza actual). Ayuda: van a tener que realizar dos recorridos, ya que cada pizza del array de pizzas tiene un array de ingredientes.
-
+// d) Todos los ingredientes de cada pizza 
 
 
 pizzas.forEach ((pizza)=>{console.log(`La pizza ${pizza.nombre} tiene estos ingredientes: ${pizza.ingredientes}`);})
